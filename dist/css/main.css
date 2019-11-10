@@ -1,0 +1,43 @@
+body {
+  margin: 0; }
+
+ul {
+  margin: 0px;
+  list-style: none;
+  padding: 0px; }
+
+.container {
+  width: 80%;
+  margin: auto; }
+
+header nav ul li a {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 700; }
+
+header {
+  background-color: black;
+  height: 100vh; }
+  header nav ul li {
+    background-color: aquamarine; }
+    header nav ul li a {
+      text-decoration: none;
+      color: white; }
+  header div {
+    display: flex; }
+    header div p:nth-child(1) {
+      font-family: "Arial";
+      font-size: 24px;
+      font-weight: bold;
+      color: white; }
+    header div p:nth-child(2) {
+      font-family: "Impact";
+      font-size: 20px;
+      font-weight: normal;
+      color: blue; }
+
+section {
+  background-color: bisque; }
+
+footer {
+  background-color: blue; }

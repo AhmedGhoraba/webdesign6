@@ -1,0 +1,33 @@
+header{
+    background-color: $mainColor;
+    height: 100vh;
+    nav{
+
+        ul{
+
+            li{
+                background-color: aquamarine;
+                a{
+                    text-decoration: none;
+                    color:white;
+                    @extend %parStyle;
+                }
+            }
+        }
+    }
+    div{
+        display: flex;
+        p:nth-child(1){
+            @include fontStyle('Arial',24px,bold,white)
+        }
+        p:nth-child(2){
+            @include fontStyle('Impact',20px,normal,blue)
+        }
+    }
+}
+
+@if ($mainColor == red){
+    header nav ul li{
+        background-color:black;
+    }
+}
